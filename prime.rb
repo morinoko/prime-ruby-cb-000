@@ -27,3 +27,5 @@ end
 #     factors.all?{ |factor| number % factor != 0 }
 #   end
 # end
+
+puts Benchmark.measure{prime?(9393939)}
